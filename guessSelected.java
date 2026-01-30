@@ -56,5 +56,3 @@ public class guessSelected {
         gS.checkGuess();
     }
 }
-
-// type -- no idea how to use 
