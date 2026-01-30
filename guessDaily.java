@@ -3,11 +3,13 @@ import java.util.Random;
 
 public class guessDaily{
     enum ResultKind{absent,present,correct}
+    
     ArrayList<String> loc = new ArrayList<>(){{
         add("apple"); // the answer type
         add("lemon");
         add("money");
     }};
+    
     ArrayList<String> guess = new ArrayList<>(){{
         add("hello"); // test cases
         add("lemon");
@@ -25,6 +27,7 @@ public class guessDaily{
         add("p");
         add("y");
     }};
+    
     ArrayList<String> msg = new ArrayList<>(){{
         add("slot: ");
         add("guess: ");
@@ -55,6 +58,7 @@ public class guessDaily{
             }
         }
     }
+    
     public static void main(String st[]){
         guessDaily gD = new guessDaily();
         gD.checkGuess();
