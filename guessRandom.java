@@ -3,12 +3,13 @@ import java.util.Random;
 
 public class guessRandom {
     enum ResultKind{absent,present,correct}
+    
     ArrayList<String> loc = new ArrayList<>(){{
         add("apple"); // the answer type
         add("lemon");
         add("money");
-
     }};
+    
     ArrayList<String> guess = new ArrayList<>(){{
         add("hello"); // test cases
         add("lemon");
@@ -26,6 +27,7 @@ public class guessRandom {
         add("p");
         add("y");
     }};
+    
     ArrayList<String> msg = new ArrayList<>(){{
         add("slot: ");
         add("guess: ");
