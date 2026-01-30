@@ -39,4 +39,3 @@ I have no idea how to connect to the API in JAVA and some variables name I have 
 I used to have exp in a server cloud proj using JavaScript, MongoDB, and completed a proj using a RESTful API.
 I will keep on studying and learn for the new and never tried tech knowledge in the future.
 No matter what the result is, ty for inviting me to complete the test.
-# Votee-AI-Coding-Test
