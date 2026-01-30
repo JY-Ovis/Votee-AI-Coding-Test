@@ -54,6 +54,5 @@ public class guessRandom {
     public static void main(String[] args) {
         guessRandom gR = new guessRandom();
         gR.checkGuess();
-
     }
 }
