@@ -53,6 +53,7 @@ public class guessRandom {
             System.out.println(msg.get(0) + Slot + "\n" + msg.get(1) + Guess + "\n" + msg.get(2) + result[2]);
         }
     }
+    
     public static void main(String[] args) {
         guessRandom gR = new guessRandom();
         gR.checkGuess();
